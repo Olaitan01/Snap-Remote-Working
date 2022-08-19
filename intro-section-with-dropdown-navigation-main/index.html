@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="index.css">
+  
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+
+  
+</head>
+<body>
+  <!--Created a general div-->
+   <div class="header">
+    <div class="logo">
+      <img src="images/logo.svg"> 
+
+      
+    </div>
+    
+    <!--Created this Div for the mobile media query-->
+   <div class="mobile-nav">
+    <a><button class="button">Features<img src="images/icon-arrow-down.svg" class="icon-down"><img src="images/icon-arrow-up.svg" class="icon-up"></button></a>
+      <div class="feature-list">
+    <a  class="item"><img src="images/icon-todo.svg"> To-do list</a>
+    <a class="item"><img src="images/icon-calendar.svg"> Calendar</a>
+    <a class="item"><img src="images/icon-reminders.svg"> Reminder</a>
+    <a class="item"><img src="images/icon-planning.svg"> Planning</a>
+      </div>
+
+      <a><button class="button2">Company<img src="images/icon-arrow-down.svg" class="icon-down2"> <img src="images/icon-arrow-up.svg" class="icon-up2"></button></a>
+      <div class="company-list">
+      <a class="item">History</a>
+      <a class="item">Our Team</a>
+      <a class="item">Blog</a>
+      </div>
+        <a class="item" >Careers</a>
+        <a  class="item">About</a>
+      <div class="join">
+      <a>Login</a>
+      <a><span>Register</span></a>
+      </div>
+   </div>
+<div>
+<button  class="hamburger">
+  <img class="menuIcon" src="images/icon-menu.svg" >
+  <img class="closeIcon"  src="images/icon-close-menu.svg">  
+</button>
+
+</div>
+     
+
+    <!--Created this section for the nav next to the logo in the header on the desktop-->
+     <div class="top-leftnav">
+       <!--Created this div for the Feature dropdown button on the desktop-->
+        <div >
+          
+            <button class="desktop-button"> Features<img src="images/icon-arrow-down.svg" class="icon-down"><img src="images/icon-arrow-up.svg" class="icon-up"></button>
+           
+           <nav class="desktop-feature-list">
+              
+             <a><img src="images/icon-todo.svg"> To-do list<a>
+             <a><img src="images/icon-calendar.svg"> Calendar</a>
+             <a><img src="images/icon-reminders.svg"> Reminder</a>
+             <a><img src="images/icon-planning.svg"> Planning</a>
+             </nav>
+ 
+        </div>    
+                      <!--Created this div for the company dropdown button-->
+         <div >
+         <button class="desktop-button2"> Company <img src="images/icon-arrow-down.svg" class="icon-down2"><img src="images/icon-arrow-up.svg" class="icon-up2"></button>
+            
+            <nav class="desktop-company-list">
+              <a>History</a>
+              <a>Our Team</a>
+              <a>Blog</a>
+            </nav>
+         </div>
+         
+         <a>Careers</a>
+         <a>About</a>
+         
+      </div>
+       <!--Created this div for the nav on the extreme right of the header-->
+      <div class="top-rightnav">
+        <ul>
+          <li>Login</li>
+          <li><span>Register</span></li>
+        </ul>
+          
+      </div>
+   </div>  
+      <!--Created this div for the body of content-->
+   <div class="content">
+    <!--Created this div for the content on the left when it is on desktop view-->
+    <img src="images/image-hero-mobile.png"   class="mobile-hero">
+     <div class="left-content">
+       <h1>Make <br> remote work</h1>
+
+        <p>Get your team in sync, no matter your location.<br> Streamline processes, 
+        create team rituals,<br> and watch productivity soar.</p>
+
+        <h2 class="mobile-h2">Make remote work</h2>
+        <p class="mobile-P">Get your team in sync, no matter your <br>location. Streamline processes,
+           create <br> team rituals, and watch productivity soar.</p>
+
+        <button class="learn">Learn more</button>
+        <div>
+  
+          <img src="images/client-databiz.svg">
+          <img src="images/client-audiophile.svg">
+          <img src="images/client-meet.svg">
+          <img src="images/client-maker.svg">
+        </div>
+     </div>
+     <!--Created this div for the content on the right for when it is on desktop mode-->
+     <div class="Hero">
+      <img src="images/image-hero-desktop.png" width="400" height="500">
+     </div>
+   
+   </div>
+  
+
+ 
+  <!--This div was created by frontendmentor.io-->
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Olaitan</a>.
+  </div>
+
+  <script src="index.js">
+
+  </script>
+</body>
+</html>
